@@ -1,4 +1,4 @@
-Git version control
+# Git version control
 
 ------------------------
 
@@ -10,7 +10,13 @@ git config --global user.name "Hery"
 
 ------------------------
 
+# Local Git Repository
+
 git init
+
+git add <file_name>
+
+git add *.html
 
 git add .
 
@@ -21,3 +27,13 @@ git branch -M main
 git remote add origin https://github.com/Thitphavanh/xxxx.git
 
 git push -u origin main
+
+# Git Repository (Remove)
+
+git rm -r --cached .
+
+git rm --cached <file_name> 
+
+# Status Git Repository
+
+git status
