@@ -8,13 +8,15 @@ git config --global user.email "xxx@gmail.com"
 
 git config --global user.name "Hery"
 
+git clear
+
 ------------------------
 
 # Local Git Repository
 
 git init
 
-git add <file_name>
+git add xxx.html
 
 git add *.html
 
@@ -32,8 +34,21 @@ git push -u origin main
 
 git rm -r --cached .
 
-git rm --cached <file_name> 
+git rm --cached xxx.html 
 
 # Status Git Repository
 
 git status
+
+# Tracked Status
+
+Modified
+
+Staged
+
+Committed
+
+# Create Git Repository
+
+touch xxx.js
+
