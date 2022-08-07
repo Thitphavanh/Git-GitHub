@@ -22,7 +22,7 @@ git add *.html
 
 git add .
 
-git commit -m "first commit"
+git commit -m "first commit" 
 
 git branch -M main
 
@@ -52,3 +52,24 @@ Committed
 
 touch xxx.js
 
+# Git Commit
+
+git commit -m "Log Message"
+
+# Git Log ເບິ່ງປະຫວັດການ Commit (log)
+
+git log
+
+git log --online
+
+git log --graph
+
+# Git Diff
+
+git diff <commit_id>
+
+git diff <commit_id><commit_id>
+
+# Git Check-Out
+
+git checkout <file-name>
