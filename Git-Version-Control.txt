@@ -64,12 +64,14 @@ git log --online
 
 git log --graph
 
-# Git Diff
+# Git diff ປຽບທຽບ version
 
-git diff <commit_id>
+git diff <commit_id> ແບບລະບຸ Commit ID
 
-git diff <commit_id><commit_id>
+git diff <commit_id><commit_id> // ປຽບທຽບລະຫວ່າງສອງ Commit
 
 # Git Check-Out
 
 git checkout <file-name>
+
+
