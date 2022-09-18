@@ -64,12 +64,44 @@ git log --online
 
 git log --graph
 
-# Git Diff
+# Git diff ປຽບທຽບ version
 
-git diff <commit_id>
+git diff <commit_id> ແບບລະບຸ Commit ID
 
-git diff <commit_id><commit_id>
+git diff <commit_id><commit_id> // ປຽບທຽບລະຫວ່າງສອງ Commit
 
 # Git Check-Out
 
 git checkout <file-name>
+
+# Git reset ສຳຫຼັບຍ້ອນຄືນເບິ່ງ version
+
+git reset -- option <commit_id>
+
+# Git Branching ຄຳສັ່ງກ່ຽວກັບ (Git Branching)
+
+ການສະແດງຊື່ Branch
+
+git branch
+
+ການສະຫຼັບ ແລະ ສ້າງ Branch
+
+git checkout -b <ຊື່ branch> (ຫ້າມຕັ້ງຊື່ເວັ້ນວັກ)
+
+ການລົບ Branch
+
+git branch -d <ຊື່ branch>
+
+ສະຫຼັບໄປ Branch ຫຼັກ
+
+git checkout main
+
+ການລວມ Branch
+
+git merge <ຊື່ branch>
+
+
+
+
+
+
