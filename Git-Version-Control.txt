@@ -100,6 +100,8 @@ git checkout main
 
 git merge <ຊື່ branch>
 
+# Git Push (ເປັນຄຳສັ່ງ Local Repository ສົ່ງໄປ Server GitHub)
+
 
 
 
