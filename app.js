@@ -1,3 +1,2 @@
 console.log("Hello")
-console.log("Employee Data")
-console.log("Employee Hi")
+console.log("HeryPhenomenal")

@@ -100,7 +100,9 @@ git checkout main
 
 git merge <ຊື່ branch>
 
-# Git Push (ເປັນຄຳສັ່ງ Local Repository ສົ່ງໄປ Server GitHub)
+# Git Push (ເປັນຄຳສັ່ງ ສົ່ງ code ຈາກ Local Repository ສົ່ງໄປ Server GitHub)
+
+# Git pull (ເປັນຄຳສັ່ງ ດຶງ code ຈາກ  Server GitHub ລົງມາທີ່ Local Repository)
 
 
 
